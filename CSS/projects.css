@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0b8a8f;
+    font-size: 1.6rem;
+}
+
+.heading {
+    margin: 30px auto 40px auto;
+    font-family: 'Montserrat', cursive;
+    font-size: 3rem;
+    color: #66BFBF;
+}
+
+hr {
+    width: 15%;
+    border: 0px;
+    border-top: 8px dotted #92a5a5;
+    background-color: white;
+}
+
+.project-row {
+    margin: 50px auto 90px auto;
+    width: 55%;
+    height: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.right-side-img {
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.left-side-img {
+    width: 25%;
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+p {
+    width: 100%;
+}
+
+.longer-heading {
+    font-size: 1.3rem;
+}
+
+.github-link {
+    color: #11999E;
+}

@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+hr {
+    width: 15%;
+    border: 0px;
+    border-top: 8px dotted #92a5a5;
+    background-color: white;
+}
+
+h1 {
+    margin: 8% auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.635rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #11999E;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 3%;
+    max-height: 100%;
+    max-width: 100%;
+}
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 23%;
+    bottom: 33%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 20%;
+    top: 10%;
+
+}
+
+.middle-container {
+    margin-bottom: 20px;
+}
+
+.my-picture {
+    height: 300px;
+    width: auto;
+    margin: 15px auto 30px auto;
+}
+
+.mountain {
+    position: inherit;
+}
+
+a {
+    color: #11999E;
+}
+
+.skill-row {
+    margin: 50px auto 70px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.left-side-img {
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.right-side-img {
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+}
+
+.hello-text {
+    width: 40%;
+    margin: 10px auto 5px auto;
+    line-height: 2;
+}
+
+.contact-me {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.skills {
+    margin-bottom: 20px;
+}
+
+.contact-me-text {
+    line-height: 2;
+}
+
+.profile {
+    padding-bottom: 50px;
+}
+
+.bottom-container {
+    margin-top: 60px;
+    background-color: #ECF9FF;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footer-link {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    color: #11999E;
+}
+
+.bottom-text {
+    color: #EAF6F6;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.blue-text {
+    color: #11999E;
+}
+
+
+.btn {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 27px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #999999;
+    background: #ffffff;
+    border: 3px solid #999999;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+}
+
+.btn.btn-border-1::after,
+.btn.btn-border-1::before {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    visibility: hidden;
+}
+
+.btn.btn-border-1::after {
+    bottom: -3px;
+    right: -3px;
+    border-left: 3px solid #11999E;
+    border-bottom: 3px solid #11999E;
+    transition: width .1s ease .1s, height .1s ease, visibility 0s .2s;
+}
+
+.btn.btn-border-1::before {
+    top: -3px;
+    left: -3px;
+    border-top: 3px solid #11999E;
+    border-right: 3px solid #11999E;
+    transition: width .1s ease .3s, height .1s ease .2s, visibility 0s .4s;
+}
+
+.btn.btn-border-1:hover {
+    animation: pulse 1s ease-out .4s;
+    color: #11999E;
+}
+
+.btn.btn-border-1:hover::after,
+.btn.btn-border-1:hover::before {
+    width: calc(100% + 3px);
+    height: calc(100% + 3px);
+    visibility: visible;
+    transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+}
+
+.btn.btn-border-1:hover::after {
+    transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+}
+
+.btn.btn-border-1:hover::before {
+    transition: width .1s ease, height .1s ease .1s;
+}
